@@ -40,7 +40,7 @@ See the kernel guide for the optional part about it.
 apt-get --no-install-recommends install pulseaudio pulseaudio-module-bluetooth bluez
 
 # If your dongle is a based on a BCM203x chipset, install the firmware
-apt-get bluez-firmware
+apt-get install bluez-firmware
 
 # Install MPlayer, along with some codecs, to later test audio output
 apt-get install mplayer
